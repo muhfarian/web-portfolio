@@ -37,7 +37,7 @@
 
 <style scoped>
 body{
-  background-color: rgba(19,19,19,0.98);
+  background-color: rgba(15,15,15,0.98);
   height: 900px;
 }
 .container{
