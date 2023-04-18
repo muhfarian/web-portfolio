@@ -6,33 +6,28 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Aethereal</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page"><router-link to="/">About</router-link></a>
-
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" >
-                    Work
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#"><router-link to="/workPoster">Poster</router-link></a></li>
-                    <li><a class="dropdown-item" href="https://isntagram.com">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+            <a class="nav-link me-2" aria-current="page"><router-link to="/"><st>ABOUT</st></router-link></a>
+            <a class="nav-link me-1" ><router-link to="/contact"><st>CONTACT</st></router-link></a>
+            <li class="nav-item dropdown">
+              <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                <st>WORK</st>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#"><router-link to="/workPoster"><st>POSTER</st></router-link></a></li>
+                <li><a class="dropdown-item" href="#"><router-link to="/workManip"><st>MANIPULATION</st></router-link></a></li>
+                <li><a class="dropdown-item" href="#"><router-link to="/workApparel"><st>APPAREL</st></router-link></a></li>
               </ul>
-            </div>
-
-            <a class="nav-link" ><router-link to="/contact">Contact</router-link></a>
+            </li>
 
           </div>
         </div>
+        <a class="navbar-brand d-flex" id="brand" href="#">AETHEREAL</a>
       </div>
     </nav>
   </header>
@@ -88,5 +83,18 @@
 </template>
 
 <style scoped>
+#brand{
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+}
+st{
+  color: white;
+  font-family: Verdana;
+}
+st:hover{
+  color: deepskyblue;
+  font-family: Verdana;
+}
 
 </style>

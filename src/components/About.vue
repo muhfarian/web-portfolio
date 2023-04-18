@@ -7,7 +7,7 @@
     </div>
 
     <div class="row mb-lg-5">
-      <div class="col"><p class="description">College Studen / Design Enthusiast</p></div>
+      <div class="col"><p class="description">College Student / Design Enthusiast</p></div>
     </div>
 
     <div class="row">
@@ -28,7 +28,7 @@
         Informatics Engineering</p></div>
     </div>
 
-    <div class="row">
+    <div class="row mt-3">
       <div class="col-4"><h2>Work Experience</h2></div>
       <div class="col-4"><h2>Skills</h2></div>
     </div>

@@ -6,6 +6,8 @@ import "bootstrap/dist/js/bootstrap.min.js"
 
 import About from "./components/About.vue";
 import WorkPoster from "./components/Work_Poster.vue";
+import WorkManip from "@/components/Work_Manip.vue";
+import WorkApparel from "@/components/Work_Apparel.vue";
 import Contact from "@/components/Contact.vue";
 
 const routes = [
@@ -23,6 +25,16 @@ const routes = [
         path: "/workPoster",
         name: "Work_Poster",
         component: WorkPoster
+    },
+    {
+        path: "/workManip",
+        name: "Work_Manip",
+        component: WorkManip
+    },
+    {
+        path: "/workApparel",
+        name: "Work_Apparel",
+        component: WorkApparel
     },
 ];
 

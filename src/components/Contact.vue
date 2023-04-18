@@ -1,6 +1,6 @@
 <template>
   <body>
-  <div class="container offset-md-3">
+  <div class="container">
     <div class="row">
       <div class="col-4 me-md-5"><h1>Contact Me</h1><hr></div>
       <div class="col-4 ms-5"><h1>Social Media</h1><hr></div>
@@ -51,6 +51,7 @@ h1 {
   color: white;
   font-family: Verdana;
   font-size: 32px;
+  font-weight: bold;
 }
 p {
   font-size: 20px;
