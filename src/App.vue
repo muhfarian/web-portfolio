@@ -7,6 +7,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
 
+        <img class="icon" src="./assets/icon/muhfarian.png" alt="...">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,40 +45,15 @@
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
         ><i class="fab fa-facebook-f"></i
         ></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-        ></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-        ></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-        ></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-        ></a>
-
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-        ></a>
       </section>
       <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="https://instagram.com/muhfarian">Muhfarian</a>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"><p>© 2023 Copyright:
+
+      <a class="text-white" href="https://instagram.com/muhfarian">Muhfarian</a></p>
     </div>
     <!-- Copyright -->
   </footer>
@@ -88,6 +65,10 @@
   font-size: 18px;
   font-weight: bold;
 }
+.icon{
+  max-height: 40px;
+  margin-right: 35px;
+}
 st{
   color: white;
   font-family: Verdana;
@@ -95,6 +76,10 @@ st{
 st:hover{
   color: deepskyblue;
   font-family: Verdana;
+}
+p{
+  font-family: Verdana;
+  font-size: 12px;
 }
 
 </style>
